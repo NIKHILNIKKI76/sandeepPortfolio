@@ -1,0 +1,142 @@
+/* Basic reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+/* About section styling */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-content h2 span {
+    color: #007bff;
+}
+
+/* Skills section styling */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #f4f4f4;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects section styling */
+.project {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Contact section styling */
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+.logos {
+    margin-top: 1rem;
+}
+
+.logos a {
+    margin: 0 0.5rem;
+    color: #333;
+}
+
+.logos a:hover {
+    color: #007bff;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+#download-resume a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+
